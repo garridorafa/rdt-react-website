@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../Button";
 
@@ -6,7 +6,7 @@ import "./styles.css";
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
-  const [showButton, setShowButton] = useState(false);
+  const [showButton, setShowButton] = useState(true);
 
   const handlerClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -18,6 +18,10 @@ const NavBar = () => {
       setShowButton(true);
     }
   };
+
+  useEffect(() => {
+    handlerShowButton();
+  }, []);
 
   window.addEventListener("resize", handlerShowButton);
 
