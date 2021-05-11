@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/rdt-react-website/static/css/main.02f6d9f8.chunk.css",
-    "main.js": "/rdt-react-website/static/js/main.d38504bc.chunk.js",
-    "main.js.map": "/rdt-react-website/static/js/main.d38504bc.chunk.js.map",
+    "main.css": "/rdt-react-website/static/css/main.47362539.chunk.css",
+    "main.js": "/rdt-react-website/static/js/main.aae7e269.chunk.js",
+    "main.js.map": "/rdt-react-website/static/js/main.aae7e269.chunk.js.map",
     "runtime-main.js": "/rdt-react-website/static/js/runtime-main.fa08346c.js",
     "runtime-main.js.map": "/rdt-react-website/static/js/runtime-main.fa08346c.js.map",
     "static/js/2.7c9eee70.chunk.js": "/rdt-react-website/static/js/2.7c9eee70.chunk.js",
     "static/js/2.7c9eee70.chunk.js.map": "/rdt-react-website/static/js/2.7c9eee70.chunk.js.map",
     "index.html": "/rdt-react-website/index.html",
-    "static/css/main.02f6d9f8.chunk.css.map": "/rdt-react-website/static/css/main.02f6d9f8.chunk.css.map",
+    "static/css/main.47362539.chunk.css.map": "/rdt-react-website/static/css/main.47362539.chunk.css.map",
     "static/js/2.7c9eee70.chunk.js.LICENSE.txt": "/rdt-react-website/static/js/2.7c9eee70.chunk.js.LICENSE.txt",
+    "static/media/hero-video.59a8c216.mp4": "/rdt-react-website/static/media/hero-video.59a8c216.mp4",
+    "static/media/img-1.7c96768b.jpg": "/rdt-react-website/static/media/img-1.7c96768b.jpg",
+    "static/media/img-2.b7a7915f.jpg": "/rdt-react-website/static/media/img-2.b7a7915f.jpg",
+    "static/media/img-3.b8d142d2.jpg": "/rdt-react-website/static/media/img-3.b8d142d2.jpg",
+    "static/media/img-4.87a2cc95.jpg": "/rdt-react-website/static/media/img-4.87a2cc95.jpg",
     "static/media/App.css": "/rdt-react-website/static/media/img-sign-up.5612915c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fa08346c.js",
     "static/js/2.7c9eee70.chunk.js",
-    "static/css/main.02f6d9f8.chunk.css",
-    "static/js/main.d38504bc.chunk.js"
+    "static/css/main.47362539.chunk.css",
+    "static/js/main.aae7e269.chunk.js"
   ]
 }
