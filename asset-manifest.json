@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/rdt-react-website/static/css/main.71100acf.chunk.css",
-    "main.js": "/rdt-react-website/static/js/main.405867c2.chunk.js",
-    "main.js.map": "/rdt-react-website/static/js/main.405867c2.chunk.js.map",
+    "main.css": "/rdt-react-website/static/css/main.02f6d9f8.chunk.css",
+    "main.js": "/rdt-react-website/static/js/main.d38504bc.chunk.js",
+    "main.js.map": "/rdt-react-website/static/js/main.d38504bc.chunk.js.map",
     "runtime-main.js": "/rdt-react-website/static/js/runtime-main.fa08346c.js",
     "runtime-main.js.map": "/rdt-react-website/static/js/runtime-main.fa08346c.js.map",
-    "static/js/2.7b2afda3.chunk.js": "/rdt-react-website/static/js/2.7b2afda3.chunk.js",
-    "static/js/2.7b2afda3.chunk.js.map": "/rdt-react-website/static/js/2.7b2afda3.chunk.js.map",
+    "static/js/2.7c9eee70.chunk.js": "/rdt-react-website/static/js/2.7c9eee70.chunk.js",
+    "static/js/2.7c9eee70.chunk.js.map": "/rdt-react-website/static/js/2.7c9eee70.chunk.js.map",
     "index.html": "/rdt-react-website/index.html",
-    "static/css/main.71100acf.chunk.css.map": "/rdt-react-website/static/css/main.71100acf.chunk.css.map",
-    "static/js/2.7b2afda3.chunk.js.LICENSE.txt": "/rdt-react-website/static/js/2.7b2afda3.chunk.js.LICENSE.txt"
+    "static/css/main.02f6d9f8.chunk.css.map": "/rdt-react-website/static/css/main.02f6d9f8.chunk.css.map",
+    "static/js/2.7c9eee70.chunk.js.LICENSE.txt": "/rdt-react-website/static/js/2.7c9eee70.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/rdt-react-website/static/media/img-sign-up.5612915c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fa08346c.js",
-    "static/js/2.7b2afda3.chunk.js",
-    "static/css/main.71100acf.chunk.css",
-    "static/js/main.405867c2.chunk.js"
+    "static/js/2.7c9eee70.chunk.js",
+    "static/css/main.02f6d9f8.chunk.css",
+    "static/js/main.d38504bc.chunk.js"
   ]
 }
