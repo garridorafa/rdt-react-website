@@ -29,7 +29,7 @@ const NavBar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/rdt-react-website/" className="navbar-logo">
             RDT
           </Link>
           <div className="menu-icon" onClick={handlerClick}>
@@ -37,13 +37,17 @@ const NavBar = () => {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/rdt-react-website/"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/rdt-react-website/services"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -52,7 +56,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/rdt-react-website/products"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -61,7 +65,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/sign-up"
+                to="/rdt-react-website/sign-up"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >

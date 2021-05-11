@@ -13,10 +13,10 @@ function App() {
       <Router>
         <Layout>
           <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/services" component={Services} />
-            <Route path="/products" component={Products} />
-            <Route path="/sign-up" component={SignUp} />
+            <Route path="/rdt-react-website/" exact component={Home} />
+            <Route path="/rdt-react-website/services" component={Services} />
+            <Route path="/rdt-react-website/products" component={Products} />
+            <Route path="/rdt-react-website/sign-up" component={SignUp} />
           </Switch>
         </Layout>
       </Router>

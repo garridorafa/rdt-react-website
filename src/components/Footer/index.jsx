@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./styles.css";
 import { Button } from "../Button";
 import { Link } from "react-router-dom";
+import "./styles.css";
 
 function Footer() {
   return (
@@ -30,40 +30,40 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Terms of Service</Link>
+            <Link to="/rdt-react-website/sign-up">How it works</Link>
+            <Link to="/rdt-react-website/">Testimonials</Link>
+            <Link to="/rdt-react-website/">Careers</Link>
+            <Link to="/rdt-react-website/">Terms of Service</Link>
           </div>
           <div class="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
+            <Link to="/rdt-react-website/">Contact</Link>
+            <Link to="/rdt-react-website/">Support</Link>
+            <Link to="/rdt-react-website/">Destinations</Link>
+            <Link to="/rdt-react-website/">Sponsorships</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Videos</h2>
-            <Link to="/">Submit Video</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
+            <Link to="/rdt-react-website/">Submit Video</Link>
+            <Link to="/rdt-react-website/">Ambassadors</Link>
+            <Link to="/rdt-react-website/">Agency</Link>
+            <Link to="/rdt-react-website/">Influencer</Link>
           </div>
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <Link to="/rdt-react-website/">Instagram</Link>
+            <Link to="/rdt-react-website/">Facebook</Link>
+            <Link to="/rdt-react-website/">Youtube</Link>
+            <Link to="/rdt-react-website/">Twitter</Link>
           </div>
         </div>
       </seccion>
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
-            <Link to="/" className="social-logo">
+            <Link to="/rdt-react-website/" className="social-logo">
               RDT
             </Link>
           </div>
@@ -71,7 +71,7 @@ function Footer() {
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
-              to="/"
+              to="/rdt-react-website/"
               target="_blank"
               aria-label="Facebook"
             >
@@ -79,7 +79,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link instagram"
-              to="/"
+              to="/rdt-react-website/"
               target="_blank"
               aria-label="Instagram"
             >
@@ -87,7 +87,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link youtube"
-              to="/"
+              to="/rdt-react-website/"
               target="_blank"
               aria-label="Youtube"
             >
@@ -95,7 +95,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link twitter"
-              to="/"
+              to="/rdt-react-website/"
               target="_blank"
               aria-label="Twitter"
             >
@@ -103,7 +103,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link twitter"
-              to="/"
+              to="/rdt-react-website/"
               target="_blank"
               aria-label="LinkedIn"
             >
