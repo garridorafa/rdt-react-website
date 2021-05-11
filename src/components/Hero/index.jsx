@@ -1,18 +1,14 @@
 import React from "react";
 
 import { Button } from "../Button";
+import heroVideo from "../../assets/videos/hero-video.mp4";
 import "../../App.css";
 import "./styles.css";
 
 function Hero() {
   return (
     <div className="hero-container">
-      <video
-        src="http://garridorafa.github.io/rdt-react-website/videos/hero-video.mp4"
-        autoPlay
-        loop
-        muted
-      />
+      <video src={heroVideo} autoPlay loop muted />
       <h1>Discover Dominican Republic</h1>
       <p>Enjoy an unique experience!!</p>
       <div className="hero-btns">

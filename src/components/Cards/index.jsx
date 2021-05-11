@@ -1,6 +1,7 @@
 import React from "react";
 
 import CardItem from "../CardItem";
+import CardInfo from "./CardsInfoEnum";
 import "./styles.css";
 
 function Cards() {
@@ -10,30 +11,15 @@ function Cards() {
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            <CardItem
-              src="../../assets/images/img-1.jpg"
-              text="Fly over punta cana coast with a parachute and reach heights of up to 50 meters!"
-              label="Aventure"
-              path="/rdt-react-website/services"
-            />
-            <CardItem
-              src="../../assets/images/img-2.jpg"
-              text="Rest, read or sleep in the refreshing hammocks under the sun or the shadows of coconut trees"
-              label="Relaxing"
-              path="/rdt-react-website/services"
-            />
-            <CardItem
-              src="../../assets/images/img-3.jpg"
-              text="Take private tour on boat all-include"
-              label="Luxury"
-              path="/rdt-react-website/services"
-            />
-            <CardItem
-              src="../../assets/images/img-4.jpg"
-              text="Share in the group activities that they will develop on the sand"
-              label="Party"
-              path="/rdt-react-website/services"
-            />
+            {CardInfo.map((card) => (
+              <CardItem
+                key={card.id}
+                src={card.src}
+                text={card.text}
+                label={card.label}
+                path={card.path}
+              />
+            ))}
           </ul>
         </div>
       </div>
