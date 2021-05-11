@@ -55,6 +55,7 @@
 
 .nav-links:hover {
   border-bottom: 4px solid #fff;
+  background-color: #252424;
   transition: all 0.2s ease-out;
 }
 
