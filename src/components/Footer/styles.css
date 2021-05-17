@@ -61,6 +61,7 @@
   flex-direction: column;
   align-items: flex-start;
   margin: 16px;
+  padding-left: 16px;
   text-align: left;
   width: 160px;
   box-sizing: border-box;
@@ -93,7 +94,6 @@
   color: #b1b1b1;
 }
 
-/* Social Icons */
 .social-icon-link {
   color: #fff;
   font-size: 24px;
@@ -123,7 +123,6 @@
 .social-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -156,5 +155,17 @@
 
   .social-media-wrap {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-link-items {
+    align-items: center;
+    padding: 0;
   }
 }
