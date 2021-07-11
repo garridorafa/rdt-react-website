@@ -36,4 +36,4 @@ npm run deploy
 
 # Required
 
-- Node v14.16
+- Docker > 20.10.7
