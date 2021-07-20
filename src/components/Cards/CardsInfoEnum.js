@@ -21,7 +21,7 @@ const CardInfo = [
   {
     id: 2,
     src: img3,
-    text: "Take private tour on boat all-include",
+    text: "Take a private tour on boat all-include",
     label: "Luxury",
     path: "/rdt-react-website/services",
   },
